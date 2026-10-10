@@ -16,4 +16,5 @@ for i in range(300):
     action[2] = -0.3 if i < 100 else 0.3   # move down, then up
     obs, reward, done, info = env.step(action)
     env.render()
+
 env.close()
