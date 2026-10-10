@@ -1,0 +1,11 @@
+name: robo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - robosuite==1.5.2
+      - mujoco==3.3.1
+      - h5py==3.16.0
+      - numpy==1.26.4
