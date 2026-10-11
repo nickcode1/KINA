@@ -28,3 +28,6 @@ tqdm==4.70.1
 typing_extensions==4.16.0
 websockets==17.2
 zipp==4.1.1
+h5py==3.16.0
+imageio==2.38.1
+imageio-ffmpeg==0.6.0
