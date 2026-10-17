@@ -18,3 +18,5 @@ for i in range(300):
     env.render()
 
 env.close()
+
+print("Environment closed successfully.")
